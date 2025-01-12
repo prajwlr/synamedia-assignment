@@ -147,3 +147,5 @@ app.put('/modify-seat', (req, res) => {
 app.listen(port, () => {
   console.log(`Flight Booking System API running on http://localhost:${port}`);
 });
+
+module.exports = app;
